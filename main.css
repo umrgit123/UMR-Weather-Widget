@@ -1,0 +1,86 @@
+.atwwidget-current {
+    background: white;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .atwwidget-current__container {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 20px;
+    color: white;
+    background: rgb(76, 114, 150);
+  }
+
+  .atwwidget-current__container__loc-timezone {
+    display: grid;
+  }
+
+  .atwwidget-current__container__desc-temp {
+    display: grid;
+    text-align: center;
+  }
+
+  .atwwidget-h1 {
+    font-weight: 400;
+    font-size: 30px;
+  }
+    
+  .atwwidget-daywise {
+    display: grid;
+    text-align: center;
+    color: black;
+  }
+  
+  .atwwidget-daywise:nth-child(odd) {
+    background:  rgb(189, 225, 252);
+  }
+
+  .atwwidget-daywise:nth-child(even) {
+    background:  rgb(191, 230, 241);
+  }
+
+  .atwwidget-daywise__item {
+    display: grid;
+    text-align: center;
+  }
+  
+  .atwwidget-daywise__item__heading {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+  }
+  
+  .atwwidget-daywise__item__info {
+    color: black;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .atwwidget-small {
+    font-size: 15px;
+    vertical-align: top;
+  }
+
+  .atwwidget-small-center {
+    font-size: 15px;
+  }
+
+  .atwwidget-small-bold {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+
+  /* Mobile Styles */
+@media (max-width: 700px) {
+  .atwwidget-current__container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .atwwidget-daywise {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
