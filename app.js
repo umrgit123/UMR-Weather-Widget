@@ -3,6 +3,7 @@
 //    Get location coordinates from geolocation
 //    Call openweatherAPI to get weather data
 //    Build the Dom
+//    added line in github app.j
 let ATWWIDGET_CURRENT_WEATHER = document.createElement("div");
 ATWWIDGET_CURRENT_WEATHER.className = 'atwwidget-current';
 
