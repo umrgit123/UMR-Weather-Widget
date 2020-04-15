@@ -13,3 +13,4 @@ in script file(app.js) in function getWeatherData, replace ***** with your API k
 
 Insert script into a html file where requred.
 
+Added new line.
